@@ -4,7 +4,16 @@
     width: 200px;
     border: 1px solid black;
     border-radius: 10px;
-    margin: 5px;
+}
+@media screen and (max-width: 768px){
+    .beerTile{
+        margin: auto;
+    }
+}
+@media (min-width: 768px){
+    .beerTile{
+        margin: 5px;
+    }
 }
 .beerPic {
     position: sticky;

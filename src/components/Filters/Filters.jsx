@@ -26,16 +26,16 @@ const Filters = (props) => {
 
    return(  
        <>      
-            <div className="filter">
-                <p>High ABV (6.0%)</p>
+            <div className="ABV-filter">
+                <p className="filter-name">High ABV (6.0%)</p>
                 <img src={ABVImg} alt="" className="iconify" onClick={handleABVFilter}/>
             </div>
-            <div className="filter">
-                <p>Classic Range</p>
+            <div className="Classic-filter">
+                <p className="filter-name">Classic Range</p>
                 <img src={ClassicImg} alt="" className="iconify" onClick={handleClassicFilter}/>
             </div>
-            <div className="filter">
-                <p>Acidic (ph under 4)</p>
+            <div className="PH-filter">
+                <p className="filter-name">Acidic (ph under 4)</p>
                 <img src={PHImg} alt="" className="iconify" onClick={handlePHFilter} />
             </div>        
         </>

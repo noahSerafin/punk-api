@@ -1,3 +1,40 @@
+@media screen and (max-width: 768px){
+  .nav{
+    padding: 25px;
+    display: grid;
+    grid-template-areas: "a a a"
+                        "b c d";
+  }
+  .search-box{
+    grid-area: a;
+  }
+  .ABV-filter{
+    width: 30%;
+    height: 110px;
+    grid-area: b;
+  }
+  .Classic-filter{
+    width: 30%;
+    height: 110px;
+    grid-area: c;
+  }
+  .PH-filter{
+    width: 30%;
+    height: 110px;
+    grid-area: d;
+  }
+  .filter-name{
+    height: 60px;
+  }
+  .iconify{
+      scale: 150%;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  
+}
+@media (min-width: 768px){
 .nav{
   padding: 20px;
 }.filter{
@@ -9,4 +46,5 @@
         cursor: pointer;
       }
     }
+}
 }
