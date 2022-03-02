@@ -1,9 +1,18 @@
 @media screen and (max-width: 768px){
+  .sideNav{
+    background-image: url("/src/assets/images/pint.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+  }
   .App {
     text-align: center;    
   }
   .beerList{
-    background-color: #bea327;
+    background-image: url("/src/assets/images/bottles.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 25px;
@@ -20,14 +29,21 @@
   justify-content: flex-start;
 }
 .beerList{
-  background-color: #bea327;
+  background-image: url("/src/assets/images/bottles.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 25px;
   margin-bottom: 20px;
-  margin-left: 20px;
+  margin-left: 0px;
+  border-left: 1px solid black;
 }
 .sideNav{
+  background-image: url("/src/assets/images/pint.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
   width: 300px;
 }
 }

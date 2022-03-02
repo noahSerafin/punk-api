@@ -36,7 +36,11 @@
 }
 @media (min-width: 768px){
 .nav{
+  position: fixed;
   padding: 20px;
+  .filter-name{
+    padding-top: 10px;
+  }
 }.filter{
     
 
